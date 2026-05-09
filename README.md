@@ -1,4 +1,4 @@
-# vidsim
+# mediasim
 
 Find duplicate and similar videos using perceptual hashing. Compares frames (and optionally audio) to detect re-encoded, resized, or slightly edited copies.
 

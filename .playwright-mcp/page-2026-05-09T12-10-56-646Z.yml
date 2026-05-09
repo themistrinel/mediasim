@@ -1,0 +1,543 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e9]:
+        - button "Toggle navigation" [ref=e11] [cursor=pointer]
+        - link "Homepage" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+        - generic [ref=e20]:
+          - link "Sign in" [ref=e21] [cursor=pointer]:
+            - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+          - button "Appearance settings" [ref=e24] [cursor=pointer]:
+            - img
+  - main [ref=e27]:
+    - generic [ref=e30]:
+      - heading "repositories Search Results · simfind" [level=1] [ref=e31]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - region "Filter by" [ref=e36]:
+            - heading "Filter by" [level=2] [ref=e37]
+            - list "Filter by" [ref=e42]:
+              - listitem [ref=e43]:
+                - list [ref=e44]:
+                  - listitem [ref=e45]:
+                    - link "Code (...) results" [ref=e46] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind&type=code
+                      - generic:
+                        - img
+                      - generic [ref=e47]:
+                        - generic [ref=e48]: Code
+                        - generic:
+                          - generic: ...
+                          - generic: (...)
+                          - generic: results
+                  - listitem [ref=e49]:
+                    - link "Repositories results" [ref=e50] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind&type=repositories
+                      - generic:
+                        - img
+                      - generic [ref=e51]:
+                        - generic [ref=e52]: Repositories
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e53]:
+                    - link "Issues results" [ref=e54] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind&type=issues
+                      - generic:
+                        - img
+                      - generic [ref=e55]:
+                        - generic [ref=e56]: Issues
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e57]:
+                    - link "Pull requests results" [ref=e58] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind&type=pullrequests
+                      - generic:
+                        - img
+                      - generic [ref=e59]:
+                        - generic [ref=e60]: Pull requests
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e61]:
+                    - link "Discussions results" [ref=e62] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind&type=discussions
+                      - generic:
+                        - img
+                      - generic [ref=e63]:
+                        - generic [ref=e64]: Discussions
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e65]:
+                    - link "Users results" [ref=e66] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind&type=users
+                      - generic:
+                        - img
+                      - generic [ref=e67]:
+                        - generic [ref=e68]: Users
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e69]:
+                    - button "More" [ref=e70] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e72]: More
+              - listitem [ref=e73]:
+                - heading "Languages" [level=3] [ref=e75]
+                - list "Languages" [ref=e76]:
+                  - listitem [ref=e77]:
+                    - link "Python" [ref=e78] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+language%3APython&type=repositories
+                      - generic "Python" [ref=e82]
+                  - listitem [ref=e83]:
+                    - link "C++" [ref=e84] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+language%3AC%2B%2B&type=repositories
+                      - generic "C++" [ref=e88]
+                  - listitem [ref=e89]:
+                    - link "JavaScript" [ref=e90] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+language%3AJavaScript&type=repositories
+                      - generic "JavaScript" [ref=e94]
+                  - listitem [ref=e95]:
+                    - link "Java" [ref=e96] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+language%3AJava&type=repositories
+                      - generic "Java" [ref=e100]
+                  - listitem [ref=e101]:
+                    - link "Rust" [ref=e102] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+language%3ARust&type=repositories
+                      - generic "Rust" [ref=e106]
+                  - listitem [ref=e107]:
+                    - link "C" [ref=e108] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+language%3AC&type=repositories
+                      - generic "C" [ref=e112]
+                  - listitem [ref=e113]:
+                    - link "C#" [ref=e114] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+language%3AC%23&type=repositories
+                      - generic "C#" [ref=e118]
+                  - listitem [ref=e119]:
+                    - link "HTML" [ref=e120] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+language%3AHTML&type=repositories
+                      - generic "HTML" [ref=e124]
+                  - listitem [ref=e125]:
+                    - button "More languages..." [ref=e126] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "More languages..." [ref=e129]
+                  - listitem [ref=e130]
+              - listitem [ref=e131]:
+                - heading "Advanced" [level=3] [ref=e133]
+                - list "Advanced" [ref=e134]:
+                  - listitem [ref=e135]:
+                    - button "Owner" [ref=e136] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Owner" [ref=e140]
+                  - listitem [ref=e141]:
+                    - button "Size" [ref=e142] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Size" [ref=e146]
+                  - listitem [ref=e147]:
+                    - button "Number of followers" [ref=e148] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of followers" [ref=e152]
+                  - listitem [ref=e153]:
+                    - button "Number of forks" [ref=e154] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of forks" [ref=e158]
+                  - listitem [ref=e159]:
+                    - button "Number of stars" [ref=e160] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of stars" [ref=e164]
+                  - listitem [ref=e165]:
+                    - button "Date created" [ref=e166] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date created" [ref=e170]
+                  - listitem [ref=e171]:
+                    - button "Date pushed" [ref=e172] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date pushed" [ref=e176]
+                  - listitem [ref=e177]:
+                    - button "Topic" [ref=e178] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Topic" [ref=e182]
+                  - listitem [ref=e183]:
+                    - button "License" [ref=e184] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "License" [ref=e188]
+                  - listitem [ref=e189]:
+                    - button "Archived" [ref=e190] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Archived" [ref=e194]
+                  - listitem [ref=e195]:
+                    - link "Public" [ref=e196] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+is%3Apublic&type=repositories
+                      - generic:
+                        - img
+                      - generic "Public" [ref=e200]
+                  - listitem [ref=e201]:
+                    - link "Private" [ref=e202] [cursor=pointer]:
+                      - /url: https://github.com/search?q=simfind+is%3Aprivate&type=repositories
+                      - generic:
+                        - img
+                      - generic "Private" [ref=e206]
+              - listitem [ref=e207]
+              - listitem [ref=e208]:
+                - link "Advanced search" [ref=e209] [cursor=pointer]:
+                  - /url: /search/advanced
+                  - generic:
+                    - img
+                  - generic [ref=e211]: Advanced search
+          - slider "Draggable pane splitter" [ref=e213]
+        - generic [ref=e217]:
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e222]: 22 results
+                - generic [ref=e223]: (202 ms)
+              - heading "22 results" [active] [level=2] [ref=e224]
+            - generic [ref=e225]:
+              - 'button "Sort by: Best match" [ref=e227] [cursor=pointer]':
+                - generic [ref=e229]: "Sort by: Best match"
+                - generic:
+                  - img
+              - button "Open column options" [ref=e231] [cursor=pointer]:
+                - img [ref=e232]
+          - generic [ref=e236]:
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - heading "tholadigital/SimfindApk" [level=3] [ref=e240]:
+                  - link "tholadigital/SimfindApk" [ref=e244] [cursor=pointer]:
+                    - /url: /tholadigital/SimfindApk
+                    - generic [ref=e245]:
+                      - text: tholadigital/
+                      - emphasis [ref=e246]: Simfind
+                      - text: Apk
+                - generic [ref=e248]:
+                  - text: apk file for
+                  - emphasis [ref=e249]: simfind
+                - list [ref=e250]:
+                  - listitem [ref=e251]:
+                    - link "0 stars" [ref=e252] [cursor=pointer]:
+                      - /url: /tholadigital/SimfindApk/stargazers
+                      - img [ref=e253]
+                      - generic [ref=e255]: "0"
+                  - generic [ref=e256]: ·
+                  - listitem [ref=e257]:
+                    - generic [ref=e258]:
+                      - text: Updated
+                      - generic "Nov 8, 2019, 3:51 AM GMT-3" [ref=e259]: on Nov 8, 2019
+              - link "Star" [ref=e262] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e263]:
+                  - generic:
+                    - img
+                  - generic [ref=e264]: Star
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - heading "Geotto/simfind" [level=3] [ref=e268]:
+                  - link "Geotto/simfind" [ref=e272] [cursor=pointer]:
+                    - /url: /Geotto/simfind
+                    - generic [ref=e273]:
+                      - text: Geotto/
+                      - emphasis [ref=e274]: simfind
+                - generic [ref=e275]: a find simulator
+                - list [ref=e276]:
+                  - listitem [ref=e277]:
+                    - generic "C language" [ref=e280]: C
+                  - generic [ref=e281]: ·
+                  - listitem [ref=e282]:
+                    - link "0 stars" [ref=e283] [cursor=pointer]:
+                      - /url: /Geotto/simfind/stargazers
+                      - img [ref=e284]
+                      - generic [ref=e286]: "0"
+                  - generic [ref=e287]: ·
+                  - listitem [ref=e288]:
+                    - generic [ref=e289]:
+                      - text: Updated
+                      - generic "Mar 30, 2019, 10:59 AM GMT-3" [ref=e290]: on Mar 30, 2019
+              - link "Star" [ref=e293] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e294]:
+                  - generic:
+                    - img
+                  - generic [ref=e295]: Star
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - heading "cestcedric/simfind" [level=3] [ref=e299]:
+                  - link "cestcedric/simfind" [ref=e303] [cursor=pointer]:
+                    - /url: /cestcedric/simfind
+                    - generic [ref=e304]:
+                      - text: cestcedric/
+                      - emphasis [ref=e305]: simfind
+                - generic [ref=e306]: Reachset Conformance Testing of Human Arms with a Biomechanical Model (IEEE IRC 2018)
+                - list [ref=e307]:
+                  - listitem [ref=e308]:
+                    - generic "C++ language" [ref=e311]: C++
+                  - generic [ref=e312]: ·
+                  - listitem [ref=e313]:
+                    - link "0 stars" [ref=e314] [cursor=pointer]:
+                      - /url: /cestcedric/simfind/stargazers
+                      - img [ref=e315]
+                      - generic [ref=e317]: "0"
+                  - generic [ref=e318]: ·
+                  - listitem [ref=e319]:
+                    - generic [ref=e320]:
+                      - text: Updated
+                      - generic "Aug 20, 2021, 1:06 PM GMT-3" [ref=e321]: on Aug 20, 2021
+              - link "Star" [ref=e324] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e325]:
+                  - generic:
+                    - img
+                  - generic [ref=e326]: Star
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - heading "tholadigital/simfind.github.io" [level=3] [ref=e330]:
+                  - link "tholadigital/simfind.github.io" [ref=e334] [cursor=pointer]:
+                    - /url: /tholadigital/simfind.github.io
+                    - generic [ref=e335]:
+                      - text: tholadigital/
+                      - emphasis [ref=e336]: simfind
+                      - text: .github.io
+                - generic [ref=e338]:
+                  - text: website for
+                  - emphasis [ref=e339]: simfind
+                  - text: company
+                - list [ref=e340]:
+                  - listitem [ref=e341]:
+                    - generic "HTML language" [ref=e344]: HTML
+                  - generic [ref=e345]: ·
+                  - listitem [ref=e346]:
+                    - link "0 stars" [ref=e347] [cursor=pointer]:
+                      - /url: /tholadigital/simfind.github.io/stargazers
+                      - img [ref=e348]
+                      - generic [ref=e350]: "0"
+                  - generic [ref=e351]: ·
+                  - listitem [ref=e352]:
+                    - generic [ref=e353]:
+                      - text: Updated
+                      - generic "Oct 29, 2024, 3:33 AM GMT-3" [ref=e354]: on Oct 29, 2024
+              - link "Star" [ref=e357] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e358]:
+                  - generic:
+                    - img
+                  - generic [ref=e359]: Star
+            - generic [ref=e361]:
+              - generic [ref=e362]:
+                - heading "Israelistic/simfinder" [level=3] [ref=e363]:
+                  - link "Israelistic/simfinder" [ref=e367] [cursor=pointer]:
+                    - /url: /Israelistic/simfinder
+                    - generic [ref=e368]:
+                      - text: Israelistic/
+                      - emphasis [ref=e369]: simfinder
+                - generic [ref=e370]: An image similarity measuring tool.
+                - list [ref=e371]:
+                  - listitem [ref=e372]:
+                    - generic "Rust language" [ref=e375]: Rust
+                  - generic [ref=e376]: ·
+                  - listitem [ref=e377]:
+                    - link "0 stars" [ref=e378] [cursor=pointer]:
+                      - /url: /Israelistic/simfinder/stargazers
+                      - img [ref=e379]
+                      - generic [ref=e381]: "0"
+                  - generic [ref=e382]: ·
+                  - listitem [ref=e383]:
+                    - generic [ref=e384]:
+                      - text: Updated
+                      - generic "May 19, 2018, 3:21 PM GMT-3" [ref=e385]: on May 19, 2018
+              - link "Star" [ref=e388] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e389]:
+                  - generic:
+                    - img
+                  - generic [ref=e390]: Star
+            - generic [ref=e392]:
+              - generic [ref=e393]:
+                - heading "yamuna1996d/simfinder" [level=3] [ref=e394]:
+                  - link "yamuna1996d/simfinder" [ref=e398] [cursor=pointer]:
+                    - /url: /yamuna1996d/simfinder
+                    - generic [ref=e399]:
+                      - text: yamuna1996d/
+                      - emphasis [ref=e400]: simfinder
+                - list [ref=e401]:
+                  - listitem [ref=e402]:
+                    - generic "C++ language" [ref=e405]: C++
+                  - generic [ref=e406]: ·
+                  - listitem [ref=e407]:
+                    - link "0 stars" [ref=e408] [cursor=pointer]:
+                      - /url: /yamuna1996d/simfinder/stargazers
+                      - img [ref=e409]
+                      - generic [ref=e411]: "0"
+                  - generic [ref=e412]: ·
+                  - listitem [ref=e413]:
+                    - generic [ref=e414]:
+                      - text: Updated
+                      - generic "May 16, 2025, 2:28 AM GMT-3" [ref=e415]: on May 16, 2025
+              - link "Star" [ref=e418] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e419]:
+                  - generic:
+                    - img
+                  - generic [ref=e420]: Star
+            - generic [ref=e422]:
+              - generic [ref=e423]:
+                - heading "guilloboi1917/doc-simfinder" [level=3] [ref=e424]:
+                  - link "guilloboi1917/doc-simfinder" [ref=e428] [cursor=pointer]:
+                    - /url: /guilloboi1917/doc-simfinder
+                    - generic [ref=e429]:
+                      - text: guilloboi1917/doc-
+                      - emphasis [ref=e430]: simfinder
+                - generic [ref=e431]: Concurrent Document Similarity Search
+                - list [ref=e432]:
+                  - listitem [ref=e433]:
+                    - generic "Rust language" [ref=e436]: Rust
+                  - generic [ref=e437]: ·
+                  - listitem [ref=e438]:
+                    - link "0 stars" [ref=e439] [cursor=pointer]:
+                      - /url: /guilloboi1917/doc-simfinder/stargazers
+                      - img [ref=e440]
+                      - generic [ref=e442]: "0"
+                  - generic [ref=e443]: ·
+                  - listitem [ref=e444]:
+                    - generic [ref=e445]:
+                      - text: Updated
+                      - generic "Dec 6, 2025, 10:53 AM GMT-3" [ref=e446]: on Dec 6, 2025
+              - link "Star" [ref=e449] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e450]:
+                  - generic:
+                    - img
+                  - generic [ref=e451]: Star
+            - generic [ref=e453]:
+              - generic [ref=e454]:
+                - heading "balbassam/SimFinder" [level=3] [ref=e455]:
+                  - link "balbassam/SimFinder" [ref=e459] [cursor=pointer]:
+                    - /url: /balbassam/SimFinder
+                    - generic [ref=e460]:
+                      - text: balbassam/
+                      - emphasis [ref=e461]: SimFinder
+                - generic [ref=e462]: Working repository for SunView group in USF's Senior Project Spring 2014.
+                - list [ref=e463]:
+                  - listitem [ref=e464]:
+                    - generic "C# language" [ref=e467]: C#
+                  - generic [ref=e468]: ·
+                  - listitem [ref=e469]:
+                    - link "0 stars" [ref=e470] [cursor=pointer]:
+                      - /url: /balbassam/SimFinder/stargazers
+                      - img [ref=e471]
+                      - generic [ref=e473]: "0"
+                  - generic [ref=e474]: ·
+                  - listitem [ref=e475]:
+                    - generic [ref=e476]:
+                      - text: Updated
+                      - generic "Mar 28, 2017, 9:16 PM GMT-3" [ref=e477]: on Mar 28, 2017
+              - link "Star" [ref=e480] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e481]:
+                  - generic:
+                    - img
+                  - generic [ref=e482]: Star
+            - generic [ref=e484]:
+              - generic [ref=e485]:
+                - heading "Timiniey/SimFinder" [level=3] [ref=e486]:
+                  - link "Timiniey/SimFinder" [ref=e490] [cursor=pointer]:
+                    - /url: /Timiniey/SimFinder
+                    - generic [ref=e491]:
+                      - text: Timiniey/
+                      - emphasis [ref=e492]: SimFinder
+                - list [ref=e493]:
+                  - listitem [ref=e494]:
+                    - generic "Python language" [ref=e497]: Python
+                  - generic [ref=e498]: ·
+                  - listitem [ref=e499]:
+                    - link "0 stars" [ref=e500] [cursor=pointer]:
+                      - /url: /Timiniey/SimFinder/stargazers
+                      - img [ref=e501]
+                      - generic [ref=e503]: "0"
+                  - generic [ref=e504]: ·
+                  - listitem [ref=e505]:
+                    - generic [ref=e506]:
+                      - text: Updated
+                      - generic "Dec 2, 2022, 4:02 PM GMT-3" [ref=e507]: on Dec 2, 2022
+              - link "Star" [ref=e510] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e511]:
+                  - generic:
+                    - img
+                  - generic [ref=e512]: Star
+            - generic [ref=e514]:
+              - generic [ref=e515]:
+                - heading "Sam-Chug/dramaso-simfinder" [level=3] [ref=e516]:
+                  - link "Sam-Chug/dramaso-simfinder" [ref=e520] [cursor=pointer]:
+                    - /url: /Sam-Chug/dramaso-simfinder
+                    - generic [ref=e521]:
+                      - text: Sam-Chug/dramaso-
+                      - emphasis [ref=e522]: simfinder
+                - generic [ref=e523]: Sim Finder for DramaSO
+                - list [ref=e524]:
+                  - listitem [ref=e525]:
+                    - generic "JavaScript language" [ref=e528]: JavaScript
+                  - generic [ref=e529]: ·
+                  - listitem [ref=e530]:
+                    - link "0 stars" [ref=e531] [cursor=pointer]:
+                      - /url: /Sam-Chug/dramaso-simfinder/stargazers
+                      - img [ref=e532]
+                      - generic [ref=e534]: "0"
+                  - generic [ref=e535]: ·
+                  - listitem [ref=e536]:
+                    - generic [ref=e537]:
+                      - text: Updated
+                      - generic "May 13, 2025, 4:47 PM GMT-3" [ref=e538]: on May 13, 2025
+              - link "Star" [ref=e541] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dsimfind%26type%3Drepositories
+                - generic [ref=e542]:
+                  - generic:
+                    - img
+                  - generic [ref=e543]: Star
+          - navigation "Pagination" [ref=e546]:
+            - generic [ref=e547]:
+              - generic [ref=e548]:
+                - img [ref=e549]
+                - text: Previous
+              - link "Page 1" [ref=e551] [cursor=pointer]:
+                - /url: https://github.com/search?q=simfind&type=repositories&p=1
+                - text: "1"
+              - link "Page 2" [ref=e552] [cursor=pointer]:
+                - /url: https://github.com/search?q=simfind&type=repositories&p=2
+                - text: "2"
+              - link "Page 3" [ref=e553] [cursor=pointer]:
+                - /url: https://github.com/search?q=simfind&type=repositories&p=3
+                - text: "3"
+              - link "Next Page" [ref=e554] [cursor=pointer]:
+                - /url: https://github.com/search?q=simfind&type=repositories&p=2
+                - text: Next
+                - img [ref=e555]
+          - generic [ref=e558]:
+            - generic [ref=e559]:
+              - img "Package icon" [ref=e561]
+              - heading "Sponsor open source projects you depend on" [level=2] [ref=e562]
+              - generic [ref=e563]: Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.
+              - link "Explore sponsorable projects" [ref=e564] [cursor=pointer]:
+                - /url: https://github.com/sponsors/explore
+                - text: Explore sponsorable projects
+                - img [ref=e565]
+            - generic [ref=e567]:
+              - generic [ref=e568]:
+                - img [ref=e569]
+                - text: ProTip!
+              - generic [ref=e571]:
+                - text: Press the
+                - generic [ref=e572]: /
+                - text: key to activate the search input again and adjust your query.
